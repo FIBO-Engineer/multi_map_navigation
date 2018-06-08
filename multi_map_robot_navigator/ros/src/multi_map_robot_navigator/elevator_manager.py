@@ -28,7 +28,7 @@ import yaml
 from sensor_msgs.msg import *
 from visualization_msgs.msg import *
 from geometry_msgs.msg import *
-from multi_map_navigation.msg import *
+from multi_map_robot_navigator.msg import *
 from trajectory_msgs.msg import *
 import actionlib
 from std_msgs.msg import Int32

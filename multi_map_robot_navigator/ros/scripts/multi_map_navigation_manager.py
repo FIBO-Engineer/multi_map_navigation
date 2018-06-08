@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import rospy
-from multi_map_navigation.srv import *
+from multi_map_robot_navigator.srv import *
 from std_srvs.srv import Empty
-from multi_map_navigation.map_manager import MultiMapManager
-from multi_map_navigation.map_navigator import MultiMapNavigationNavigator
+from multi_map_robot_navigator.map_manager import MultiMapManager
+from multi_map_robot_navigator.map_navigator import MultiMapNavigationNavigator
 
 def handle_reinit_call(req):
     rospy.loginfo("Re-initializing Multi-Map navigator...")

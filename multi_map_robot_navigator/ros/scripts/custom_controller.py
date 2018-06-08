@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from multi_map_navigation.multimap_transition import MultiMapControl
+from multi_map_robot_navigator.multimap_transition import MultiMapControl
 import rospy
 
 if __name__ == '__main__':

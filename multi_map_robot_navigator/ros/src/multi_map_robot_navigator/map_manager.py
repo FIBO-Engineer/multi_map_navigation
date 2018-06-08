@@ -1,8 +1,8 @@
 import rospy
 import tf
 import actionlib
-from multi_map_navigation.msg import *
-from multi_map_navigation.srv import *
+from multi_map_robot_navigator.msg import *
+from multi_map_robot_navigator.srv import *
 from std_msgs.msg import String
 from visualization_msgs.msg import *
 import yaml

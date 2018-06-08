@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 
 from nav_msgs.srv import *
 from geometry_msgs.msg import *
-from multi_map_navigation.msg import *
-from multi_map_navigation.srv import *
+from multi_map_robot_navigator.msg import *
+from multi_map_robot_navigator.srv import *
 from move_base_msgs.msg import *
 from actionlib_msgs.msg import GoalStatus
 
@@ -252,7 +252,7 @@ class MultiMapNavigationNavigator():
 
     def wait_for_elevator(self, target_floor, elevator_id):
         print "elevator_id", elevator_id
-        elevator_target = multi_map_navigation.msg.MultiMapNavigationTargetElevatorGoal()
+        elevator_target = multi_map_robot_navigator.msg.MultiMapNavigationTargetElevatorGoal()
         elevator_target.elevatorTargetFloor = target_floor
         elevator_target.elevatorId = str(elevator_id)
 

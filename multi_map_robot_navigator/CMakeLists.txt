@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(multi_map_navigation)
+project(multi_map_robot_navigator)
 
 find_package(catkin REQUIRED COMPONENTS
   rospy

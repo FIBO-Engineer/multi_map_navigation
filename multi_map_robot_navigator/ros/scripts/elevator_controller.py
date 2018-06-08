@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from multi_map_navigation.elevator_manager import ElevatorControl
+from multi_map_robot_navigator.elevator_manager import ElevatorControl
 import rospy
 
 if __name__ == '__main__':
