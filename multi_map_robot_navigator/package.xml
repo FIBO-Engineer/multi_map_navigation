@@ -1,6 +1,6 @@
 <package>
-  <name>multi_map_navigation</name>
-  <version>0.0.0</version>
+  <name>multi_map_robot_navigator</name>
+  <version>1.0.0</version>
   <description>Multi-level map navigation based on the original version of Mohit Shridhar and David Lee</description>
   <maintainer email="jocamaba1989@gmail.com">Jose Mayoral</maintainer>
   <license>MIT</license>

@@ -25,7 +25,7 @@
 import roslib
 import rospy
 import actionlib
-from multi_map_navigation.msg import *
+from multi_map_robot_navigator.msg import *
 from std_msgs.msg import String
 from roslaunch_mode_switcher.srv import ModeSwitcher
 
