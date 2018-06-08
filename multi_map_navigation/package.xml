@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>mulit_map_navigation</name>
+  <version>1.0.0</version>
+  <description>Metapackage for multi_map_navigation utilities</description>
+
+  <maintainer email="jocamaba1989@gmail.com"> Jose Mayoral</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="jocamaba1989@gmail.com"> Jose Mayoral </author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
