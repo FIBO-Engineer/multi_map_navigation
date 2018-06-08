@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="map" default="$(optenv ROBOT_ENV !!NO_ROBOT_ENV_SET!!)"/>
+  <arg name="maps_package" default="mcr_default_env_config" />
+
+
+  <node pkg="multi_map_server" type="multi_map_server"
+        name="multi_map_server" args="$(arg map)" output="screen" >
+      <param name="maps_package" type="str" value="$(arg maps_package)"/>
+  </node>
+</launch>
