@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>mulit_map_navigation</name>
+  <name>multi_map_navigation</name>
   <version>1.0.0</version>
   <description>Metapackage for multi_map_navigation utilities</description>
 
