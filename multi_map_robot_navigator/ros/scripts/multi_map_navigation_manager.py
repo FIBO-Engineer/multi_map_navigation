@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rospy
 from multi_map_robot_navigator.srv import *
 from std_srvs.srv import Empty

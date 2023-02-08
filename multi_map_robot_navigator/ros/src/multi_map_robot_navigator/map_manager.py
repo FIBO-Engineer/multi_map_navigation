@@ -210,7 +210,7 @@ class MultiMapManager(object):
             if (not "name" in i):
                 rospy.logerr("YAML file: " + filename + " contains an invalid map with no name")
                 return False
-            print "maps available", i["name"]
+            print("maps available", i["name"])
             self.maps[i["name"]] =  [i["name"]]
 
         self.wormholes = data["wormholes"]

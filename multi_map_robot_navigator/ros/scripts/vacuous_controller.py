@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from multi_map_robot_navigator.vacuous_transition import vacuous
 import rospy

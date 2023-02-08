@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from multi_map_robot_navigator.elevator_manager import ElevatorControl
 import rospy

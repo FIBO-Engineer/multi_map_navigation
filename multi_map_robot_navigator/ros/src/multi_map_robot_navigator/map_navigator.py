@@ -144,7 +144,7 @@ class MultiMapNavigationNavigator():
             return None
 
         rospy.loginfo ("PATH FOUND")
-        print "The found path is ", path
+        print("The found path is ", path)
 
         #removing start and end
         path = path[1:-1]
@@ -251,7 +251,7 @@ class MultiMapNavigationNavigator():
         self.action_server.set_succeeded(MultiMapNavigationResult())
 
     def wait_for_elevator(self, target_floor, elevator_id):
-        print "elevator_id", elevator_id
+        print("elevator_id", elevator_id)
         elevator_target = multi_map_robot_navigator.msg.MultiMapNavigationTargetElevatorGoal()
         elevator_target.elevatorTargetFloor = target_floor
         elevator_target.elevatorId = str(elevator_id)
@@ -356,10 +356,10 @@ class MultiMapNavigationNavigator():
 
     def afterSwitchingMap(self,mapname, location, wormhole, offset):
         #Create and publish the new pose for AMCL
-        print "Switching Maps"
+        print("Switching Maps")
         l = tf.TransformListener()
         l.waitForTransform("/map", "/odom", rospy.Time(0), rospy.Duration(4.0))
-        print "Transform received"
+        print("Transform received")
         msg = PoseWithCovarianceStamped()
         msg.header.frame_id = "/map"
         msg.header.stamp = rospy.get_rostime()
